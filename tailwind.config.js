@@ -6,6 +6,7 @@ module.exports = {
     colors: {
       white: {
         pure: "#ffffff",
+        fade: "#fafafa",
       },
       blue: {
         medium: "#0095fc",
@@ -19,13 +20,14 @@ module.exports = {
         base: "#616161",
         background: "262626",
         primary: "#dbdbdb",
+        soft: "#8e8e8e"
       },
       red: {
         primary: "#ed4956",
-          },
-          fontFamily: {
-          "roboto": "'Roboto', sans-serif"
-      }
+      },
+      fontFamily: {
+        roboto: "'Roboto', sans-serif",
+      },
     },
   },
 };
