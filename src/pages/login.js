@@ -33,7 +33,7 @@ const Login = () => {
 
   useEffect(() => {
     document.title = "Login - Instagram";
-  }, []);
+  });
 
   return (
     <div className="container flex flex-col font-roboto">
@@ -92,7 +92,7 @@ const Login = () => {
               <button
                 disabled={isInvalid}
                 type="submit"
-                className={`bg-blue-medium text-white-pure w-full py-2 mt-3 rounded font-medium 
+                className={`bg-blue-medium text-white-pure w-full py-2 mt-3 rounded font-medium focus:outline-none 
                       ${isInvalid && "opacity-50"}`}
               >
                 Login
@@ -110,7 +110,7 @@ const Login = () => {
                 </p>
               </div>
 
-              <div className="text-blue-dark flex justify-center font-medium items-center my-3">
+              <div className="text-blue-dark flex justify-center font-medium items-center my-3 outline-none">
                 <AiFillFacebook className="text-2xl" />
                 <p className="">Log in with Facebook</p>
               </div>
@@ -141,7 +141,9 @@ const Login = () => {
             </p>
           </div>
 
-          <p className="flex justify-center items-center">Get the app.</p>
+          <p className="flex justify-center items-center p-4 text-sm">
+            Get the app.
+          </p>
 
           <div
             className={`flex items-center justify-center mt-3 ${
