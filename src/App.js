@@ -30,7 +30,7 @@ function App() {
 
           <Route exact path={Routes.PROFILE} component={Profile} />
 
-          <Route exact path={Routes.NOTFOUND} component={Notfound} />
+          <Route component={Notfound} />
         </Switch>
       </Suspense>
     </Router>

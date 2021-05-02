@@ -36,7 +36,7 @@ const Login = () => {
   });
 
   return (
-    <div className="container flex flex-col font-roboto">
+    <div className="container flex flex-col font-roboto mt-3">
       <div className="container flex m-auto md:mx-auto max-w-screen-md items-center h-full font-roboto">
         <div className="flex w-4/5 hidden md:block">
           <img src="/images/iphone-with-profile.jpg" alt="login img" />
